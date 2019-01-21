@@ -1,0 +1,19 @@
+server:
+  port: 8061
+  
+spring:
+  application:
+    name: gateWay-Service
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8071/eureka/
+      
+zuul:
+  routes:
+    provide-service: /api-provide/**
+    
+    consumer-service: /api-consumer/**
+    
+    

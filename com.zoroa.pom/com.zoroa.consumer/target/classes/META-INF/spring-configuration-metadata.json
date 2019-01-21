@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zoroa.consumer.config.User",
+      "name": "user",
+      "type": "com.zoroa.consumer.config.User"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zoroa.consumer.config.User",
+      "name": "user.age",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zoroa.consumer.config.User",
+      "name": "user.gender",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zoroa.consumer.config.User",
+      "name": "user.home",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zoroa.consumer.config.User",
+      "name": "user.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
